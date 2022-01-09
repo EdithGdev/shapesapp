@@ -2,8 +2,15 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>hiiiiiiii</h1>
+    <div className="app">
+      <div className='triContainer'>
+        <div className='red'></div>
+        <div className='green'></div>
+        <div className='blue'></div>
+      </div>
+      <div className='searchContainer'>
+        <input className='searchinput' type='search' placeholder='red, green, or blue' />
+      </div>
     </div>
   );
 }
