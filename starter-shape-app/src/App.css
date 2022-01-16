@@ -22,37 +22,14 @@
   padding: 40px;
 }
 
-.red {
-  height: 50px;
-  width: 50px;
-  background-color: red;
-
-
+.square-shape{
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.green {
-  height: 50px;
-  width: 50px;
-  background-color: green;
-}
-
-.blue {
-  height: 50px;
-  width: 50px;
-  background-color: blue;
-}
-
-.purple {
-  height: 50px;
-  width: 50px;
-  background-color: purple;
-}
-
-.orange {
-  height: 50px;
-  width: 50px;
-  background-color: orange;
-}
 
 .searchContainer {
   background-color: pink;

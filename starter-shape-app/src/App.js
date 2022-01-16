@@ -10,7 +10,23 @@ let colorList= [
   "pink",
   "blue",
   "red", 
-  "yellow"
+  "yellow",
+  "purple", 
+  "orange",
+  "grey",
+  "aqua",
+  "cyan",
+  "gold",
+  "pink",
+  "blue",
+  "red", 
+  "yellow",
+  "purple", 
+  "orange",
+  "grey",
+  "aqua",
+  "cyan",
+  "gold"
 
 ]
 let colorSearch = [];
@@ -24,14 +40,15 @@ function getInput(e){
       for(let i= 0; i < colorList.length; i++){
       if(colorList[i].includes(colorSearch)){
         document.querySelector('.triContainer').innerHTML+= `
-                    <div class ="search-results-item" style="background-color:${colorList[i]};">
-                        <span class = 'search-item' >${colorList[i]}</span>
+                    <div class ="square-shape" style="background-color:${colorList[i]};">
+                        <span class = 'square-text' ><h1>${colorList[i]}</h1></span>
                     </div>
                 
                 `;
         
   }
-
+  console.log(i)
+  
     }
 }
 //new function that filters out the divs that match or include string
