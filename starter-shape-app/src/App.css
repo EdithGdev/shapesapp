@@ -13,11 +13,13 @@
 }
 
 .triContainer {
-  height: 200px;
-  width: 400px;
+  height: 400px;
+  width: 600px;
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  background-color: blueviolet;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px;
 }
 
 .red {
@@ -40,7 +42,27 @@
   background-color: blue;
 }
 
+.purple {
+  height: 50px;
+  width: 50px;
+  background-color: purple;
+}
+
+.orange {
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+}
+
+.searchContainer {
+  background-color: pink;
+  height: 45px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+}
+
 .searchinput {
   height: 30px;
-  border-radius: 5px;
+
 }
